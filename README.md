@@ -1,11 +1,11 @@
 # craftivity-cloud
 This file is a step by step provide how to use Cloud Storage buckets and Cloud SQL Database on Google Cloud Platform that we used in the BANGKIT capstone final project.
 
-Create a project and manage project member accounts:
+## Create a project and manage project member accounts:
 1. Create a project.
 2. Set up an account for our team to access the project.
 
-Using Cloud Storage Bucket:
+## Using Cloud Storage Bucket:
 1. Create 2 buckets in Cloud Storage, the first bucket to store the photo files that will be used and the second bucket to store the sql files that have been created in phpmyadmin.
 2. Create 5 folders of types of waste (cardboard, glass, metal, paper, plastic) and upload photo files based on the type of waste.
 3. Upload the sql file in the second bucket.
@@ -15,7 +15,7 @@ Using Cloud Storage Bucket:
    - Name : allUsers
    - Access : Reader.
 
-Using CloudSQL:
+## Using CloudSQL:
 1. Create an instance on Cloud SQL, using mysql with the following specifications:
    - Region : asia-southeast2 and check the Multiples Zone
    - Machine Type : Shared core and tick 1 vCPU, 0.614 GB or db-f1-micro
